@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar img{
+  width: 40px;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  border-bottom: 1px solid rgba(90, 87, 87, 0.285);
+  margin-bottom: 2px;
+  /* justify-content: space-between; */
+}
+.nav-links li{
+  display: inline;
+}
+
+.nav-links a{
+  text-decoration: none;
+  color: gray;
+  margin: 20px;
+}
+h2{
+  margin-right: 50px;
+}
+
+.btn{
+  margin-left: 290px;
+  padding: 5px 15px;
+  background-color: transparent;
+  border: 1px solid gray;
+  align-self: center;
+}
+
+.second-nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.btn-2{
+  background-color: blue;
+  padding: 7px 15px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.second-nav p{
+  font-size: 17px;
+}
+.third-nav{
+  background-color: #E8710A;
+  padding: 20px 20px;
+}
+
+.third-nav p{
+  font-size: 14px;
+  font-weight: 400;
+}
+h1{
+  font-family: "Google Sans", sans-serif;
+  font-weight: lighter;
+  margin: 10px 0px 0px 7px;
+  font-size: 40px;
+}
+
+.roboto-para1 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  
+}
+
+.main{
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.img{
+  width: 590px;
+}
+.text{
+  width: 100%;
+}
+.text h1{
+  margin-bottom: 10px;
+}
+.text p{
+  margin-bottom: 15px;
+}
+
+.text h4{
+  padding: 15px 20px;
+  background-color: rgba(48, 48, 131, 0.134);
+  margin-bottom: 25px;
+}
+.btn-3{
+  background-color: rgba(0, 0, 255, 0.776);
+  padding: 5px 15px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.btn-4{
+  background-color: transparent;
+  color: blue;
+  border: none;
+}
+.btn-4:hover{
+  background-color: aliceblue;
+  padding: 5px 15px;
+}
+
+.section{
+  display: flex;
+  gap: 20px;
+  padding: 10px 40px;
+}
+
+.card{
+  border: 1px solid gray;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+#images{
+  width: 50px;
+}
+.card h3 a{
+  text-decoration: none;
+}
+
+.card-btn{
+  background-color: blue;
+  padding: 6px 15px;
+  border: none;
+  border-radius: 5px;
+}
+.card-btn a{
+  color: white;
+  text-decoration: none
+}
